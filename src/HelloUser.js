@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 
-var HelloUser = () => {
-    var user = 'Gaël';
-    return <div>Hello {user}!</div>;
+const divStyle = {
+    color: 'blue'
+};
+
+
+let HelloUser = (props) => {
+    return <div style={divStyle}>Hello</div>
 };
 
 export default HelloUser
