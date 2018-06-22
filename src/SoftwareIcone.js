@@ -11,7 +11,7 @@ const divStyle2 = {
     backgroundColor: 'red',
 };
 
-class HelloUser3 extends React.Component {
+class SoftwareIcone extends React.Component {
     constructor(props) {
         super(props);
 
@@ -45,7 +45,7 @@ class HelloUser3 extends React.Component {
 
 }
 
-HelloUser3.propTypes = {
+SoftwareIcone.propTypes = {
     'increment': PropTypes.number.isRequired,
     'color': PropTypes.string.isRequired
 }
