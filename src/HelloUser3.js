@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Counter from "./Counter";
 import PropTypes from "prop-types";
-
+import design from "app.css"
 
 const divStyle = {
     backgroundColor: 'blue',
@@ -10,6 +10,7 @@ const divStyle = {
 const divStyle2 = {
     backgroundColor: 'red',
 };
+
 
 class HelloUser3 extends React.Component {
     constructor(props) {
@@ -36,7 +37,7 @@ class HelloUser3 extends React.Component {
                     <img src='src/img/application.png' onClick={() => this.changeColor()}/>
                     <img src='src/img/cloud.png' onClick={() => this.changeClass("cloud")}/>
                     <img src='src/img/desktop.png' onClick={() => this.changeClass("desktop")}/>
-                </div>
+            </div>
             </div>
         );
     }

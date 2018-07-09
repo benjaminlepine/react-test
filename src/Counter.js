@@ -1,3 +1,6 @@
+// How use : <Counter increment={1} color={NICE} />
+//           <Counter increment={5} color={SUPER_NICE} />
+// Import in App.js : import { NICE, SUPER_NICE } from './colors'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import add from 'lodash/add'

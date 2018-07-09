@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Counter from "./Counter";
 import PropTypes from "prop-types";
-
 
 const divStyle = {
     backgroundColor: 'blue',
@@ -24,7 +22,6 @@ class SoftwareIcone extends React.Component {
     changeColor(){
         this.setState({blue : !this.state.blue});
         console.log("this.state = ",this.state);
-
     }
 
     render(props) {

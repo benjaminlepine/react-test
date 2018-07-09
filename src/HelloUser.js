@@ -1,12 +1,15 @@
+// How use in App.js : <HelloUser user='Benjamin'/>
 import React, { Component } from 'react'
 
-const divStyle = {
-    color: 'blue'
-};
+class HelloUser extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-
-let HelloUser = (props) => {
-    return <div style={divStyle}>Hello</div>
-};
+    render() {
+        const user = this.props.user;
+        return <div>Hello {user}</div>
+    };
+}
 
 export default HelloUser
